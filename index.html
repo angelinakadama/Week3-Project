@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Contact Information</title>
+
+<style>
+    html { font-family: sans-serif; color: #333; }
+    body { max-width: 500px; margin: 0 auto; padding: 0 15px; }
+    div, article { padding: 10px; margin: 5px; border: 1px solid #dedede; }
+  </style>
+<link rel = "stylesheet"type = "text/css"href = "style.css"/>
+<script type= "text/javaScript" src="script.js"></script>
+  </head>
+
+<body>
+       <h1>Contact  form</h1>
+  <!-- <form> -->
+  
+  <div> FirstName:<br>
+   <input type="text" name=" FirstName" id="FirstName"/>
+   </div> 
+ 
+  <div>SecondName:<br>
+  <input type="text" name="SecondName" id="SecondName"/>
+  </div>
+ 
+  <div>PhoneNumber:<br>
+  <input type="" text ="PhoneNumber" id="PhoneNumber"/>
+  </div>
+ 
+  <div>EmailAddress:<br>
+  <input type="text" name="EmailAddress" id="EmailAddress"/></div>
+   <input type= submit onclick ="saveContact()">
+  <br><br>
+
+  <!-- </form> -->
+  <div id="search">
+    <h3>Search Contact</h3>
+  <input type="text" id="search_phrase">
+  <button type ="submit" id="search-id" onclick="search_function()">Search</button>
+  <h1>output<h1>
+  <p id="results"></p>
+</div>
+ <body>
+<html>
